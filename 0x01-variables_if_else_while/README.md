@@ -1,1 +1,1 @@
-conditions
+conditional statements
