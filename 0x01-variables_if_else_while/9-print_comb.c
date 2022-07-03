@@ -7,18 +7,13 @@
  */
 int main(void)
 {
-	int a = 0;
+	char a = '0';
 
-	while (a < 10)
+	for (a = '0'; a <= '9'; a++)
 	{
-		putchar(48 + c);
-		if (c != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		c++;
+		putchar(a);
+		putchar(',');
+		putchar(' ')
 	}
-	putchar('\n');
 	return (0);
 }
