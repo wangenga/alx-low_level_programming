@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main:executable function
+ * main-executable function
  * Description:prints all possible combinations of 3 digits
- * Return:Always (0)success
+ * Return:Always 0 (success)
  */
 int main(void)
 {

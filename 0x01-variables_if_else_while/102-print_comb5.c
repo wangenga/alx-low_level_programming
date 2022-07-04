@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main:executable function
+ * main-executable function
  * Description:all possible combination of two two digit numbers
- * Return:Always (0)success
+ * Return:Always 0 (success)
  */
 int main(void)
 {
