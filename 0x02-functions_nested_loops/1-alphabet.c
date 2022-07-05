@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main-executable function
  * Description:print the lowercase alphabet
  * Return:Always 0(success)
  */
-int main(void)
+void main(void)
 {
-	int x;
+	char x;
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
