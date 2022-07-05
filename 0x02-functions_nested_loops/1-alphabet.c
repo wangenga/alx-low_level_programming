@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main-executable function
- * Description:print the lowercase alphabet
+ * print_alphabet-executable function
+ * Description:Prints the lowercase alphabet
  * Return:Always 0(success)
  */
-void main(void)
+void print_alphabet(void)
 {
 	char x;
 
@@ -12,6 +12,6 @@ void main(void)
 	{
 		putchar(x);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }

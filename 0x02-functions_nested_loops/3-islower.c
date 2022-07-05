@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main-executable function
+ * _islower-executable function
  * Description:checks for lowercase letters
  * Return:Always 0(success)
  */
-int _islower(int c);
+int _islower(int c)
+
 {
-	if( c = 'a' && c < 'z')
+	if (c = 'a' && c < 'z')
 	{
 	return (1);
 	}
