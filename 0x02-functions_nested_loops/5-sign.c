@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * sign-print the magnitude of a number
- * @n:the int to print
- * Description:Print if 
+ * @n:The int to print
+ * Description:Print 0 when 0, 1 when + and -1 when -.
  * Return:Always 0(success)
  */
 int print_sign(int n)
