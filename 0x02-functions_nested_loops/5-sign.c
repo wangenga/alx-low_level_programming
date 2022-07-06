@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sign-print the magnitude of a number
+ * print_sign-print the magnitude of a number
  * @n:The int to print
  * Description:Print 0 when 0, 1 when + and -1 when -.
  * Return:Always 0(success)
