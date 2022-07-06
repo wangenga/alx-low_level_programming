@@ -2,13 +2,14 @@
 #include <stdio.h>
 /**
  * _islower-executable function
+ * @c:contains value to be compared
  * Description:checks for lowercase letters
  * Return:Always 0(success)
  */
 int _islower(int c)
 
 {
-	if (c = 'a' && c < 'z')
+	if (c > 'a' && c < 'z')
 	{
 	return (1);
 	}
@@ -16,4 +17,4 @@ int _islower(int c)
 	{
 	return (0);
 	}
-}	
+}

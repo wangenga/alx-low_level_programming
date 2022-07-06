@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha-executable function
- * @c:The int to print 
+ * @c:The int to print
  * Description:Return 1 if c is a letter, lower or uppercase
  * Return:Always 0(success)
  */
