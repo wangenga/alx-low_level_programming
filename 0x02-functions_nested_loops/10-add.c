@@ -6,7 +6,11 @@
  * @k:print int k
  * Return:Always 0 (success)
  */
-int add(int i, int k)
+void print_alphabet(void)
 {
-	return (i + k);
-}
+	char x;
+
+
+	for ( x = 'a'; x <= 'z'; x++)
+	{
+		_putchar 
