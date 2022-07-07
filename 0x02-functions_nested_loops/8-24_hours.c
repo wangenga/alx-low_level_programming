@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer-print every minute
- * @n:The int to print
+ * Description:printing time
  * Return: Always 0 (success)
  */
 void jack_bauer(void)
