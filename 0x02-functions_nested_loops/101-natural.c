@@ -3,7 +3,7 @@
 /**
  * main-executable function
  * Description:sum of multiple of 1024
- * Result 0(success)
+ * Return:Always 0(success)
  */
 int main(void)
 {
