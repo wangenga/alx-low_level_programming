@@ -2,7 +2,7 @@
 /**
  * _isupper-checks for uppercase characters
  * @c:print int
- * Return:Always 0
+ * Return: give 1 or 0
  */
 int _isupper(int c)
 {
