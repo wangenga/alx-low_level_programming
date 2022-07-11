@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * _puts - prints a string , followed by a new line, to std out
+ * @str: input string
+ */
+void _puts(char *str)
+{
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putcar(str[i]);
+	}
+	_putchar('\n');
+}
