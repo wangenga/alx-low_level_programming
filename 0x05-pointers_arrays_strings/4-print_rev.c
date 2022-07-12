@@ -9,7 +9,7 @@ void print_rev(char *s)
 	int i;
 	int l;
 
-	while (s[i])
+	while (s[i++])
 		l++;
 
 		for (i = l - 1; s[i] != '\0'; i--)
