@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_memeset - main function
+ * *_memset- main function
  * @s: pointer to buffer
  * @b: constant byte
  * @n: size of the buffer to fil
