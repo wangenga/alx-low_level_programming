@@ -4,7 +4,7 @@
  * main - prints the minimum nuber ofcoinsto change for an amount
  * @argc: number of arguements
  * @argv: array f pointers
- * Return: if not exactly one -1, else 0
+ * Return: if not exactly one 1, else 0
  */
 int main(int argc, char *argv[])
 {
@@ -16,30 +16,29 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	cent = atoi(argv[1]);
-	while (cent > 0)
+	if (cent > 25)
+	{
+		while (cent >= 25)
+			cent -= 25, coin++;
+	}
+	if (cent > 10 && cent < 25)
+	{
+		while (cent >= 10)
+			cent -= 10, coin++;
+	}
+	if (cent > 5 && cent < 10)
+	{
+		while (cent >= 5)
+			cent -= 5, coin++;
+	}
+	if (cent > 2 && cent < 5)
+	{
+		while (cent >= 2)
+			cent -= 2, coin++;
+	}
+	if (cent == 1 || cent == 2 || cent == 5 || cent == 10 || cent == 25)
 	{
 		coin++;
-		if ((cent - 25) >= 0)
-		{
-			cent -= 25;
-			continue;
-		}
-		if ((cent - 10) >= 0)
-		{
-			cent -= 10;
-			continue;
-		}
-		if ((cent - 5) >= 0)
-		{
-			cents -= 5;
-			continue;
-		}
-		if ((cent - 2) >= 0)
-		{
-			cent -= 2;
-			continue;
-		}
-		cent--;
 	}
 	printf("%d\n", coin);
 	return (0);
